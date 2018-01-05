@@ -1,3 +1,6 @@
+# https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
+
+
 ```
 $ gcc -O2 -std=gnu11 speculate.s speculate.c && ./a.out
 0xffffffff81c5b400: 1e 77 17 08 02 ?? ?? ?? 0e 04 ?? ?? ?? ?? ?? ?? 
